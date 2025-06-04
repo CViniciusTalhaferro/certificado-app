@@ -78,10 +78,10 @@ def listar_certificados():
     return db
 
 # Email configuration (substitua com seu servidor real)
-EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST = "email-ssl.com.br"
 EMAIL_PORT = 587
-EMAIL_USER = "seu_email@gmail.com"
-EMAIL_PASS = "sua_senha"
+EMAIL_USER = "contato@talhaferro.cnt.br"
+EMAIL_PASS = "Cont@t0T@lhaferro*2024+"
 
 def enviar_email(destinatario, assunto, corpo):
     msg = MIMEText(corpo, "html")
